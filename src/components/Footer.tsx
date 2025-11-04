@@ -5,19 +5,19 @@ const socialLinks = [
     icon: Github,
     label: "GitHub",
     href: "https://github.com/younes-alhyan",
-    color: "amber-400",
+    color: "amber",
   },
   {
     icon: Linkedin,
     label: "LinkedIn",
     href: "https://www.linkedin.com/in/younes-alhyan",
-    color: "cyan-400",
+    color: "cyan",
   },
   {
     icon: Mail,
     label: "Email",
     href: "mailto:younesalhyan@gmail.com",
-    color: "amber-400",
+    color: "amber",
   },
 ];
 
@@ -30,8 +30,6 @@ export default function Footer() {
           <div className="flex gap-6">
             {socialLinks.map((link) => {
               const Icon = link.icon;
-              const borderHover = `border-${link.color}`;
-              const textHover = `text-${link.color}`;
 
               return (
                 <a
@@ -39,11 +37,19 @@ export default function Footer() {
                   href={link.href}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className={`p-3 rounded-xl bg-muted/30 border  hover:${borderHover} hover:scale-110 transition-all duration-300 group`}
+                  className={`p-3 rounded-xl bg-muted/30 border transition-all duration-300 hover:scale-110 group ${
+                    link.color === "amber"
+                      ? "hover:border-amber-400"
+                      : "hover:border-cyan-400"
+                  }`}
                   aria-label={link.label}
                 >
                   <Icon
-                    className={`h-5 w-5 text-background transition-colors duration-300 group-hover:${textHover}`}
+                    className={`h-5 w-5 text-background transition-colors duration-300 ${
+                      link.color === "amber"
+                        ? "group-hover:text-amber-400"
+                        : "group-hover:text-cyan-400"
+                    }`}
                   />
                 </a>
               );
