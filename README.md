@@ -58,7 +58,7 @@ _(If you want to follow along with some of the technologies I use, check out my 
 - [CS50: Intro to Computer Science](https://certificates.cs50.io/6ae2e84d-7bca-4b46-b528-81891c1a6bdd.pdf?size=letter) | Harvard | 2025
 - [Frontend Development](https://www.freecodecamp.org/certification/younes-alhyan/front-end-development-libraries) | FreeCodeCamp | 2025
 - [Backend Development](https://www.freecodecamp.org/certification/younes-alhyan/back-end-development-and-apis) | FreeCodeCamp | 2025
-- [1337 Preparation](https://1337.ma) | Self-Study & Practice | Ongoing
+- [1337 Certification](https://1337.ma) | Self-Study & Practice | Ongoing
 
 ## 🌱 Currently Learning
 
