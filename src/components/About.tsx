@@ -16,7 +16,7 @@ export default function About() {
       <div className="flex flex-col lg:flex-row items-center lg:items-start gap-8 p-8 md:p-12 w-full max-w-6xl bg-card/50 backdrop-blur-sm border-2 border-border hover:border-amber-500/30 transition-all duration-300 rounded-2xl animate-on-scroll">
         <div className="w-32 lg:w-64 aspect-square p-1 border-2 border-amber-500/20 shadow-xl shadow-amber-500/10 ring-4 ring-background rounded-full overflow-hidden">
           <img
-            src="./public/icon.jpg"
+            src="./icon.jpg"
             alt=""
             className="h-full w-full rounded-full"
           />
