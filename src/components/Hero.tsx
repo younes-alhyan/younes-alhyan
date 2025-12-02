@@ -35,7 +35,7 @@ export default function Hero() {
           </span>
         </div>
 
-        <h1 className="mb-2 text-white/80 text-6xl md:text-7xl lg:text-8xl tracking-tight">
+        <h1 className="mb-2 text-center text-white/80 text-4xl sm:text-6xl md:text-7xl lg:text-8xl tracking-tight">
           {headerText}
           <span className="blink">_</span>
         </h1>
