@@ -34,7 +34,7 @@ const certifications = [
     url: "https://www.freecodecamp.org/certification/younes-alhyan/back-end-development-and-apis",
   },
   {
-    title: "1337 Preparation",
+    title: "1337 Certification",
     provider: "Self-Study & Practice",
     status: "ongoing",
     year: "2025",
