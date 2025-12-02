@@ -21,8 +21,8 @@ const projects = [
     image: ConvertingpdfImage,
     tech: ["Python", "Flask", "Supabase", "Docker"],
     color: "cyan",
-    live: "https://younes-alhyan.github.io/convertingpdf/",
-    source: "https://github.com/younes-alhyan/convertingpdf-server",
+    live: "https://lamgaldam-tech.github.io/convertingpdf/",
+    source: "https://github.com/lamgaldam-tech/convertingpdf-server",
   },
   {
     title: "CST (Club Scientifique et Technologique)",
