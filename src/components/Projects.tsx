@@ -1,44 +1,47 @@
 import { Github, ExternalLink } from "lucide-react";
+import ConvertingpdfImage from "../assets/convertingpdf.png";
+import WeatherAppImage from "../assets/weather-app.png";
+import CSTImage from "../assets/cst.png";
 
 const projects = [
   {
-    title: "E-Commerce Product Page",
-    description:
-      "A responsive e-commerce product page built with React, featuring a lightbox product gallery, interactive cart functionality, and smooth user interactions. This project demonstrates modern frontend skills including component-driven development, state management, and responsive design.",
-    image:
-      "https://res.cloudinary.com/dz209s6jk/image/upload/v1715958959/Challenges/nnhmflkuam4gr1dnnddf.jpg",
-    tech: ["HTML", "CSS", "JavaScript", "React"],
-    color: "amber",
-    live: "https://github.com/younes-alhyan/e-commerce-product-page",
-    source: "https://younes-alhyan.github.io/e-commerce-product-page",
-  },
-  {
     title: "Weather App",
     description:
-      "A responsive weather app built with React and TypeScript, featuring search functionality, unit conversion, and detailed forecasts powered by the Open-Meteo API. Demonstrates API integration, dynamic data rendering, and modern frontend styling with Tailwind CSS.",
-    image:
-      "https://res.cloudinary.com/dz209s6jk/image/upload/Challenges/go73d9rjvzc8fsw13hy8.jpg",
+      "A responsive weather app built with React and TypeScript, featuring search functionality, unit conversion, and detailed forecasts powered by the Open-Meteo API. Demonstrates frontend development skills including API integration, dynamic data rendering, and modern styling with Tailwind CSS.",
+    image: WeatherAppImage,
     tech: ["React", "TypeScript", "Tailwind", "API"],
-    color: "cyan",
-    live: "https://github.com/younes-alhyan/weather-app",
-    source: "https://younes-alhyan.github.io/weather-app",
+    color: "amber",
+    live: "https://younes-alhyan.github.io/weather-app",
+    source: "https://github.com/younes-alhyan/weather-app",
   },
   {
-    title: "IP Address Tracker",
+    title: "ConvertingPDF",
     description:
-      "An IP Address Tracking app built with Node.js, using multiple APIs to fetch and display location and network details. The project showcases API integration, dynamic data handling, and responsive frontend design.",
-    image:
-      "https://res.cloudinary.com/dz209s6jk/image/upload/Challenges/ld4kxbjoxpqpjenak8w6.jpg",
-    tech: ["HTML", "CSS", "JavaScript", "Node.js", "API"],
+      "A PDF conversion tool where I implemented the backend and backend integration using Python, Flask, Supabase, and Docker. The project handles file uploads, processing, and storage, demonstrating my ability to build robust server-side logic and integrate with cloud services. The frontend was partially handled to connect with the backend endpoints.",
+    image: ConvertingpdfImage,
+    tech: ["Python", "Flask", "Supabase", "Docker"],
+    color: "cyan",
+    live: "https://younes-alhyan.github.io/convertingpdf/",
+    source: "https://github.com/younes-alhyan/convertingpdf-server",
+  },
+  {
+    title: "CST (Club Scientifique et Technologique)",
+    description:
+      "A web platform for managing activities and members of the CST club. I worked on the backend and backend integration using Node.js, MongoDB, and Express, implementing APIs, authentication, and database management. The frontend consumes these endpoints to display club data dynamically.",
+    image: CSTImage,
+    tech: ["Node.js", "MongoDB", "Express"],
     color: "amber",
-    live: "https://github.com/younes-alhyan/ip-address-tracker",
-    source: "https://younes-alhyan.github.io/ip-address-tracker",
+    live: "https://cst-web.github.io/CST/",
+    source: "https://github.com/CST-web",
   },
 ];
 
 export default function Projects() {
   return (
-    <section id="projects" className="relative flex flex-col items-center py-20 px-4 gap-4">
+    <section
+      id="projects"
+      className="relative flex flex-col items-center py-20 px-4 gap-4"
+    >
       <h1 className="mb-2 text-white/80 text-4xl md:text-5xl lg:text-6xl tracking-tight">
         Featured Projects
       </h1>
