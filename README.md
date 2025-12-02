@@ -7,21 +7,19 @@
 I build **practical software** and explore modern web technologies, turning ideas into working projects.  
 From smart home systems to web apps, I love creating tools that are both **useful and fun**.
 
-
-[![Portfolio](https://img.shields.io/badge/Portfolio-View%20Website-blue?style=for-the-badge&logo=webmoney&logoColor=white)](https://younes-alhyan.github.io/younes-alhyan/) 
+[![Portfolio](https://img.shields.io/badge/Portfolio-View%20Website-blue?style=for-the-badge&logo=webmoney&logoColor=white)](https://younes-alhyan.github.io/younes-alhyan/)
 [![CV](https://img.shields.io/badge/CV-Download-orange?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://younes-alhyan.github.io/younes-alhyan/cv,pdf)
-
 
 </div>
 
 ## 🛠 Projects
 
-| Project                                                                               | Description                                                                                              |
-| ------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
-| [Mirai](https://github.com/younes-alhyan/Mirai)                                       | Smart room project with voice control, real-time audio streaming, modular devices, and a web interface.  |
-| [PS4 Controller Simulator](https://github.com/younes-alhyan/ps4-controller-simulator) | Use an Android phone as a PS4 controller for PCs without Bluetooth/USB. Works via vJoy & x360ce. 🚀      |
-| [Frontend Mentor Challenges](https://github.com/younes-alhyan/frontend-mentor)        | Solutions to Frontend Mentor challenges with clean, responsive HTML, CSS & JS code.                      |
-| [ConvertingPDF Server](https://github.com/younes-alhyan/convertingpdf-server)         | Flask API for PDF tools: merge, split, compress, PDF→Word/JPG. Supports batch downloads & rate limiting. |
+|                                        Project                                        |                                               Description                                                |
+| :-----------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------: |
+|                    [Mirai](https://github.com/younes-alhyan/Mirai)                    | Smart room project with voice control, real-time audio streaming, modular devices, and a web interface.  |
+| [PS4 Controller Simulator](https://github.com/younes-alhyan/ps4-controller-simulator) |   Use an Android phone as a PS4 controller for PCs without Bluetooth/USB. Works via vJoy & x360ce. 🚀    |
+|    [Frontend Mentor Challenges](https://github.com/younes-alhyan/frontend-mentor)     |           Solutions to Frontend Mentor challenges with clean, responsive HTML, CSS & JS code.            |
+|     [ConvertingPDF Server](https://github.com/younes-alhyan/convertingpdf-server)     | Flask API for PDF tools: merge, split, compress, PDF→Word/JPG. Supports batch downloads & rate limiting. |
 
 ## 💻 Skills
 
